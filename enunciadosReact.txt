@@ -1,0 +1,54 @@
+/////////////////////////////
+Ejercicios React
+Prácticas con componentes, ciclo de vida del componente, eventos etc.
+////////////////////////////
+
+1 - Hello world
+Crear una aplicación web con un componente que muestre en pantalla el mensaje “Hello World”.
+
+
+2 - Hello world (parte 2)
+Modificar el componente anterior y enviar mediante props el valor “My friend”
+
+
+3 - Hello world (parte 3)
+Modificar el programa anterior agregando al componente un state con la clave msj: “(from changed state)”, además agregar un botón al presionar este botón (onClick), el state de la clave msj se debe mostrar por pantalla de la siguiente manera: (imagen3)
+
+
+4 - Lista de tareas
+Crear una aplicación web que  muestre una lista de tareas, al ingresar una tarea en el input y presionar enter, esta tarea se debe mostrar en una lista como la imagen a continuación: (imagen4)
+
+
+5 - Lista de tareas (con localstorage)
+Modifica el programa anterior para que las tareas se puedan almacenar en el localstorage.
+
+
+6 - Paleta de colores
+Crear un proyecto de react que muestre un formulario con un input y un button que permite guardar un color en el localstorage, similar a la siguiente imagen: (imagen6)
+
+
+7 - Lista de empleados
+Crear una aplicación web que permite reutilizar componentes siguiendo la estructura de la siguiente imagen, pueden incorporar bootstrap u hojas de estilo propias. (imagen7)
+
+Tendremos un EmpleadoAvatar (recuadro rojo), un EmpleadoRow (recuadro verde) y por último un EmpleadoList (recuadro azul).
+Los datos de los empleados deberán ser mostrados mediante un arreglo que deben crear similar al siguiente:
+--------------------------------------------------------
+let empleados = [
+  { id: 1, fullName: "Laya Dueñas", title: "CEO", department: "Business", pic: "empleado01.png" },
+  { id: 2, fullName: "Astryd Vallés", title: "CMO", department: "Marketing", pic: "empleado02.png" },
+  { id: 3, fullName: "Shantell Meza", title: "CFO", department: "Business", pic: "empleado03.png" },
+  { id: 4, fullName: "Sergio Ocampo", title: "CTO", department: "Engineering", pic: "empleado04.png" },
+  { id: 5, fullName: "Ares Jiménez", title: "Art Director", department: "Marketing", pic: "empleado05.png" },
+  { id: 6, fullName: "Marta Pérez", title: "Frontend Dev", department: "Engineering", pic: "empleado06.png" },
+  { id: 7, fullName: "Ellen Balderas", title: "Digital Strategist", department: "Marketing", pic: "empleado07.png" },
+  { id: 8, fullName: "Cynthia Valentín", title: "Backend Dev", department: "Engineering", pic: "empleado08.png" },
+  { id: 9, fullName: "Bernard Jung", title: "DevOps Engineer", department: "Engineering", pic: "empleado09.png" },
+]
+
+
+8 - Formulario simple
+Crear una aplicación web con react que tenga los siguientes componentes:
+ * Título “Formulario” con un color de background diferente al color del body.
+ * Formulario, con los campos de Nombre, Apellido, DNI, email y botón que me permita enviar el formulario.
+
+Una vez presionado el botón de enviar se debe verificar que todos los campos fueron cargados, y mostrar un alert con el mensaje “datos enviados”, si los datos están incompletos mostrar un alert con el mensaje “Completar todos los datos”.
