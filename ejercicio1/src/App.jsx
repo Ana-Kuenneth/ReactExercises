@@ -9,7 +9,7 @@ function App() {
       <Saludo />
       <div className="card">
         <p>
-          Esta es la primera y única página de esta web
+          Esta es la primera y única página de esta web 
         </p>
       </div>
       
