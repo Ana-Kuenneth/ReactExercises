@@ -50,7 +50,7 @@ function App() {
 
   return (
     <>
-      <div className='hoja'>
+      <div className="hoja">
         <h1>Bienvenido</h1>
         <p>Ingresa tus tareas</p>
         <form onSubmit={guardarValorInput} name='tarea'>
