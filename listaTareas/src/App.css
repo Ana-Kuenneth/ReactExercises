@@ -7,7 +7,28 @@
 
 .hoja{
   padding: 2em;
-  border: 8px;
+  border: 2px;
+  border-style: solid;
   border-radius:0;
   border-color: black;
+}
+
+p{
+  font-size: 1.5em;
+}
+
+label, input{
+  width: 300px;
+}
+
+#tarea{
+  max-width: 200px;
+}
+
+#tarea{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  padding-top: 0.5em
 }

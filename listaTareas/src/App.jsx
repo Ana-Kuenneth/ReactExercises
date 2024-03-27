@@ -67,7 +67,7 @@ function App() {
 
         <div>
           {tareas.map((tarea, index) => (
-            <div key={index}>
+            <div key={index} id='tarea'>
               <span>{tarea}</span>
               <button onClick={() => eliminarTarea(index)}>X</button>
             </div>
